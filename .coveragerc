@@ -1,0 +1,10 @@
+[run]
+branch = True
+source = bore.py
+omit =
+  env/*
+  setup.py
+  tests/*
+
+[html]
+directory = tmp/htmlcov
